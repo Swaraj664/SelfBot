@@ -12,6 +12,9 @@
 
 - Please don't forget to leave a star
 
+## Host On Replit
+[Click Here](https://replit.com/@Social404/SelfBotOP)
+
 # Donate
 [PayPal](https://paypal.me/notsocial404)
 
